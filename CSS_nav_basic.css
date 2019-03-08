@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#nav{
+ background-color: #1CAAEC;
+}
+ #nav ul { 
+ list-style: none;
+ text-align: right; 
+}
+#nav ul li {
+	width:120px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-table;
+	position: relative;
+}
+#nav ul li a{
+	text-align: center;
+	text-decoration: none; 
+	display:block;
+}
+#nav ul li a:hover{
+	background:#F20CB4 ;
+	color: #f1f1f1;
+}
+#nav ul li> .sub-menu{
+	display: none;
+	position: absolute;
+}
+#nav ul li:hover .sub-menu{
+	background-color: #1CAAEC;
+	display:block;
+}
+
